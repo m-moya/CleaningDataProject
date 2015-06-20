@@ -1,61 +1,61 @@
 
-DATA DICTIONARY - tidyData
+DATA DICTIONARY - tidyData<br />
 
-tBodyAcc.Mean.X			Numeric
-	Time Domain Body Accelerometer X-Axis Average
-		-1..1 	
-tBodyAcc.Mean.Y			Numeric
-	Time Domain Body Accelerometer y-Axis Average
-		-1..1 	
-tBodyAcc.Mean.Z			Numeric
+tBodyAcc.Mean.X			Numeric<br />
+	Time Domain Body Accelerometer X-Axis Average<br />
+		-1..1 	<br />
+tBodyAcc.Mean.Y			Numeric<br />
+	Time Domain Body Accelerometer y-Axis Average<br />
+		-1..1 	<br />
+tBodyAcc.Mean.Z			Numeric<br />
 	Time Domain Body Accelerometer z-Axis Average
 		-1..1
-tBodyAcc.StDev.X		Numeric
+tBodyAcc.StDev.X		Numeric<br />
 	Time Domain Body Accelerometer x-Axis Standard Deviation
 		-1..1	
-tBodyAcc.StDev.Y		Numeric
+tBodyAcc.StDev.Y		Numeric<br />
 	Time Domain Body Accelerometer y-Axis Standard Deviatio
 		-1..1
-tBodyAcc.StDev.Z		Numeric
+tBodyAcc.StDev.Z		Numeric<br />
 	Time Domain Body Accelerometer z-Axis Standard Deviation
 		-1..1
-tGravityAcc.Mean.X		Numeric
+tGravityAcc.Mean.X		Numeric<br />
 	Time Domain Gravity Accelerometer z-Axis Mean
 		-1..1
-tGravityAcc.Mean.Y		Numeric
+tGravityAcc.Mean.Y		Numeric<br />
 	Time Domain Gravity Accelerometer z-Axis Mean
 		-1..1
-tGravityAcc.Mean.Z		Numeric
+tGravityAcc.Mean.Z		Numeric<br />
 	Time Domain Gravity Accelerometer z-Axis Mean
 		-1..1
-tGravityAcc.StDev.X		Numeric
+tGravityAcc.StDev.X		Numeric<br />
 	Time Domain Gravity Accelerometer x-Axis Standard Deviation
 		-1..1
-tGravityAcc.StDev.Y		Numeric
+tGravityAcc.StDev.Y		Numeric<br />\
 	Time Domain Gravity Accelerometer y-Axis Standard Deviation
 		-1..1
-tGravityAcc.StDev.Z		Numeric
+tGravityAcc.StDev.Z		Numeric<br />
 	Time Domain Gravity Accelerometer z-Axis Standard Deviation
 		-1..1
-tBodyAccJerk.Mean.X		Numeric
+tBodyAccJerk.Mean.X		Numeric<br />
 	Time Domain Body Accelerometer Jerk x-Axis Mean
 		-1..1
-tBodyAccJerk.Mean.Y		Numeric
+tBodyAccJerk.Mean.Y		Numeric<br />
 	Time Domain Body Accelerometer Jerk y-Axis Mean
 		-1..1
-tBodyAccJerk.Mean.Z		Numeric
+tBodyAccJerk.Mean.Z		Numeric<br />
 	Time Domain Body Accelerometer Jerk z-Axis Mean
 		-1..1
-tBodyAccJerk.StDev.X		Numeric
+tBodyAccJerk.StDev.X		Numeric<br />
 	Time Domain Body Accelerometer Jerk x-Axis Standard Deviation
 		-1..1
-tBodyAccJerk.StDev.Y		Numeric
-	Time Domain Body Accelerometer Jerk y-Axis Standard Deviation
+tBodyAccJerk.StDev.Y		Numeric<br />
+	Time Domain Body Accelerometer Jerk y-Axis Standard Deviation<br />
 		-1..1
-tBodyAccJerk.StDev.Z		Numeric
+tBodyAccJerk.StDev.Z		Numeric<br />\
 	Time Domain Body Accelerometer Jerk z-Axis Standard Deviation
 		-1..1
-tBodyGyro.Mean.X		Numeric
+tBodyGyro.Mean.X		Numeric<br />
 	Time Domain Body Gyroscope x-Axis Mean
 		-1..1
 tBodyGyro.Mean.Y		Numeric
