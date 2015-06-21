@@ -341,7 +341,7 @@
 <br />
 **tGravityAcc.StDev.Z** [Numeric]<br />
 *Average Time Domain Gravity Accelerometer z-Axis Standard Deviation*<br />
--0.9910..-0.9910<br />
+-0.9910..-0.6102<br />
 <br />
 **tBodyAccJerk.Mean.X** [Numeric]<br />
 *Average Time Domain Body Accelerometer Jerk x-Axis Mean*<br />
@@ -433,129 +433,129 @@
 <br />
 **tBodyAccJerkMag.Mean** [Numeric]<br />
 *Average Time Domain Accelerometer Jerk Magnetometer Mean*<br />
--1..1<br />
+-0.9928..0.4345<br />
 <br />
 **tBodyAccJerkMag.StDev** [Numeric]<br />
 *Average Time Domain Acceleroemter Jerk Magnetometer Standard Deviation*<br />
--1..1<br />
+-0.9946..0.4506<br />
 <br />
 **tBodyGyroMag.Mean** [Numeric]<br />
 *Average Time Domain Body Gyroscope Magnetometer Mean*<br />
--1..1<br />
+-0.9807..0.4180<br />
 <br />
 **tBodyGyroMag.StDev** [Numeric]<br />
 *Average Time Domain Body Gyroscope Magnetometer Standard Deviation*<br />
--1..1<br />
+-0.9814..0.3000<br />
 <br />
 **tBodyGyroJerkMag.Mean** [Numeric]<br />
 *Average Time Domain Body Gyroscope Jerk Magnetometer Mean*<br />
--1..1<br />
+-0.9973..0.0876<br />
 <br />
 **tBodyGyroJerkMag.StDev** [Numeric]<br />
 *Average Time Domain Body Gyroscope Jerk Magnetometer Standard Deviation*<br />
--1..1<br />
+-0.9977..0.2502<br />
 <br />
 **fBodyAcc.Mean.X** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer x-axis Mean*<br />
--1..1<br />
+-0.9952..0.5370<br />
 <br />
 **fBodyAcc.Mean.Y** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer y-axis Mean*<br />
--1..1<br />
+-0.9890..0.5242<br />
 <br />
 **fBodyAcc.Mean.Z** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer z-axis Mean*<br />
--1..1<br />
+-0.9895..0.2807<br />
 <br />
 **fBodyAcc.StDev.X** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer x-axis Standard Deviation*<br />
--1..1<br />
+-0.9966..0.6585<br />
 <br />
 **fBodyAcc.StDev.Y** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer y-axis Standard Deviation*<br />
--1..1<br />
+-0.9907..0.5602<br />
 <br />
 **fBodyAcc.StDev.Z** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer z-axis Standard Deviation*<br />
--1..1<br />
+-0.9872..0.6871<br />
 <br />
 **fBodyAccJerk.Mean.X** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk x-axis Mean*<br />
--1..1<br />
+-0.9946..0.4743<br />
 <br />
 **fBodyAccJerk.Mean.Y** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk y-axis Mean*<br />
--1..1<br />
+-0.9894..0.2767<br />
 <br />
 **fBodyAccJerk.Mean.Z** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk z-axis Mean*<br />
--1..1<br />
+-0.9920..0.1578<br />
 <br />
 **fBodyAccJerk.StDev.X** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk x-axis Standard Deviation*<br />
--1..1<br />
+-0.9951..0.4768<br />
 <br />
 **fBodyAccJerk.StDev.Y** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk y-axis Standard Deviation*<br />
--1..1<br />
+-0.9905..0.3498<br />
 <br />
 **fBodyAccJerk.StDev.Z** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk z-axis Standard Deviation*<br />
--1..1<br />
+-0.9931..-0.0062<br />
 <br />
 **fBodyGyro.Mean.X** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope x-Axis Mean*<br />
--1..1<br />
+-0.9931..0.4750<br />
 <br />
 **fBodyGyro.Mean.Y** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope y-Axis Mean*<br />
--1..1<br />
+-0.9940..0.3288<br />
 **fBodyGyro.Mean.Z** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope z-Axis Mean*<br />
--1..1<br />
+-0.9860..0.4924<br />
 <br />
 **fBodyGyro.StDev.X** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope x-Axis Standard Deviation*<br />
--1..1<br />
+-0.9947..0.1966<br />
 <br />
 **fBodyGyro.StDev.Y** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope y-Axis Standard Deviation*<br />
--1..1<br />
+-0.9944..0.6462<br />
 <br />
 **fBodyGyro.StDev.Z** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope z-Axis Standard Deviation*<br />
--1..1<br />
+-0.9867..0.5224<br />
 <br />
 **fBodyAccMag.Mean** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Magnetometer Mean*<br />
--1..1<br />
+-0.9868..0.5866<br />
 <br />
 **fBodyAccMag.StDev** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Magnetometer Standard Deviation*<br />
--1..1<br />
+-0.9876..0.1787<br />
 <br />
 **fBodyBodyAccJerkMag.Mean** [Numeric]<br />
 *Frequency Domain Body Accelerometer Jerk Magnetometer Mean*<br />
--1..1<br />
+-0.9940..0.5384<br />
 <br />
 **fBodyBodyAccJerkMag.StDev** [Numeric]<br />
 *Average Frequency Domain Body Accelerometer Jerk Magnetometer Standard Deviation*<br />
--1..1<br />
+-0.9944..0.3163<br />
 <br />
 **fBodyBodyGyroMag.Mean** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope Magnetometer Mean*<br />
--1..1<br />
+-0.9865..0.2040<br />
 <br />
 **fBodyBodyGyroMag.StDev** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope Magnetometer Standard Deviation*<br />
--1..1<br />
+-0.9815..0.2367<br />
 <br />
 **fBodyBodyGyroJerkMag.Mean** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope Jerk Mean*<br />
--1..1<br /> 
+-0.9976..0.1466<br /> 
 <br />
 **fBodyBodyGyroJerkMag.StDev** [Numeric]<br />
 *Average Frequency Domain Body Gyroscope Jerk Standard Deviation*<br />
--1..1<br />
+-0.9976..0.2878<br />
 <br />
 
