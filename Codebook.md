@@ -202,12 +202,12 @@ fBodyBodyGyroJerkMag.StDev	Numeric<br/>
 		-1..1<br/>
 Activity				18<br/>
 	Activity Being Performed by Subject<br/>
-		WALKING<br/>
-		WALKING_UPSTAIRS<br/>
-		WALKING DOWNSTAIRS<br/>
-		SITTING<br/>
-		STANDING<br/>
-		LAYING<br/>
+		*WALKING<br/>
+		*WALKING_UPSTAIRS<br/>
+		*WALKING DOWNSTAIRS<br/>
+		*SITTING<br/>
+		*STANDING<br/>
+		*LAYING<br/>
 Subject				Numeric<br/>
 	Test Subject<br/>
 		1..30<br/>
@@ -404,25 +404,25 @@ fBodyGyro.StDev.Z		Numeric
 fBodyAccMag.Mean		Numeric
 	Frequency Domain Body Accelerometer Magnetometer Mean
 		-1..1
-fBodyAccMag.StDev		Numeric
-	Frequency Domain Body Accelerometer Magnetometer Standard Deviation
-		-1..1
+fBodyAccMag.StDev		Numeric<br />
+	Frequency Domain Body Accelerometer Magnetometer Standard Deviation<br />
+		-1..1<br />
 fBodyBodyAccJerkMag.Mean	Numeric
 	Frequency Domain Body Accelerometer Jerk Magnetometer Mean
 		-1..1
 fBodyBodyAccJerkMag.StDev	Numeric
 	Frequency Domain Body Accelerometer Jerk Magnetometer Standard Deviation
+		-1..1<br />
+fBodyBodyGyroMag.Mean	 [Numeric]<br />
+- Frequency Domain Body Gyroscope Magnetometer Mean<br />
 		-1..1
-fBodyBodyGyroMag.Mean		Numeric
-	Frequency Domain Body Gyroscope Magnetometer Mean
-		-1..1
-fBodyBodyGyroMag.StDev	Numeric
-	Frequency Domain Body Gyroscope Magnetometer Standard Deviation
-		-1..1
-fBodyBodyGyroJerkMag.Mean	Numeric
-	Frequency Domain Body Gyroscope Jerk Mean
-		-1..1 
-fBodyBodyGyroJerkMag.StDev	Numeric
-	Frequency Domain Body Gyroscope Jerk Standard Deviation
-		-1..1 
+fBodyBodyGyroMag.StDev [Numeric]<br />
+	Average Frequency Domain Body Gyroscope Magnetometer Standard Deviation<br />
+		-1..1<br />
+fBodyBodyGyroJerkMag.Mean [Numeric]<br />
+	Average Frequency Domain Body Gyroscope Jerk Mean<br />
+		-1..1<br /> 
+fBodyBodyGyroJerkMag.StDev	[Numeric]<br />
+	Average Frequency Domain Body Gyroscope Jerk Standard Deviation<br />
+		-1..1<br />
 
