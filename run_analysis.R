@@ -54,34 +54,53 @@ rm(x_test.df)
 rm(x_all.df)
 rm(columns_keep)
 
+# load y test and train data
 y_test.df <- read.table("UCI HAR Dataset/test/y_test.txt")
 y_train.df <- read.table("UCI HAR Dataset/train/y_train.txt")
 
+# combine y train and test data (training data first)
 y_all.df = rbind(y_train.df, y_test.df)
+
+# remove unneeded data
 rm(y_train.df)
 rm(y_test.df)
 
+# load activity labels
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 
-
+# create a new column that assigns activity label to y values
+# based upon numeric number in y
 y_all.df$Activity <- "blank"
 for (i in seq(1:6)) {
   y_all.df$Activity[y_all.df$V1==i] <- as.character(activity_labels[i,"V2"])
 }
 
+# convert y to data frame for later cbind
 y_all_labeled.df <- data.frame(y_all.df[,2])
+
+# give y a label of activity
 names(y_all_labeled.df) <- "Activity"
 
+# combine x and y data by columns
 xy_all.df <- cbind(x_all_filtered.df, y_all_labeled.df)
 
+# load subject data
 subject_test.df <- read.table("UCI HAR Dataset/test/subject_test.txt")
 subject_train.df <- read.table("UCI HAR Dataset/train/subject_train.txt")
+
+# comnine subject train and test data (train data first)
 subject_all.df <- rbind(subject_train.df, subject_test.df)
+
+# give subject data variable name of subject
 names(subject_all.df) <- "Subject"
+
+# remove unneeded data
 rm(subject_train.df,subject_test.df)
 
+# create tidyData by using cbind
 tidyData <- cbind(xy_all.df, subject_all.df)
 
+# remove unneeded data
 rm(activity_labels)
 rm(name_list_filtered)
 rm(xy_all.df)
@@ -91,7 +110,10 @@ rm(i)
 rm(y_all_labeled.df)
 rm(x_all_filtered.df)
 
+# create tidyData2 data for step 5 by grouping by subject and activity
+# and calculating mean using dplyr functions
 tidyData2 <- tidyData %>% group_by(Subject, Activity) %>% summarise_each(funs(mean))
 
+# save tidyData2 data to file
 write.table(tidyData2, "tidyData2.txt", row.name=FALSE)
 
