@@ -1,9 +1,9 @@
 
-DATA DICTIONARY - tidyData<br />
+<h2>DATA DICTIONARY - tidyData</h2><br />
 
-tBodyAcc.Mean.X			Numeric<br />
-	Time Domain Body Accelerometer X-Axis Average<br />
-		-1..1<br />
+<strong>tBodyAcc.Mean.X</strong> [Numeric]<br />
+Desc: Time Domain Body Accelerometer X-Axis Average<br />
+<&nbsp><&nbsp>-1..1<br />
 tBodyAcc.Mean.Y			Numeric<br />
 	Time Domain Body Accelerometer y-Axis Average<br />
 		-1..1<br />
