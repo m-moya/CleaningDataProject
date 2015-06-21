@@ -1,27 +1,29 @@
 
 <h2>DATA DICTIONARY - tidyData</h2><br />
-
 <strong>tBodyAcc.Mean.X</strong> [Numeric]<br />
-Desc: Time Domain Body Accelerometer X-Axis Average<br />
-  -1..1<br />
+*Time Domain Body Accelerometer X-Axis Average*<br />
+-1..1<br />
 <br />
 <strong>tBodyAcc.Mean.Y</strong>	 [Numeric]<br />
-Desc: Time Domain Body Accelerometer y-Axis Average<br />
-  -1..1<br />
+Time Domain Body Accelerometer y-Axis Average<br />
+-1..1<br />
 <br />
 <strong>tBodyAcc.Mean.Z</strong>	[Numeric]<br />
-Desc: Time Domain Body Accelerometer z-Axis Average<br/>
-  -1..1<br/>
+*Time Domain Body Accelerometer z-Axis Average*<br/>
+-1..1<br/>
 <br />
-tBodyAcc.StDev.X		Numeric<br />
-	Time Domain Body Accelerometer x-Axis Standard Deviation<br/>
-		-1..1	<br/>
-tBodyAcc.StDev.Y		Numeric<br />
-	Time Domain Body Accelerometer y-Axis Standard Deviation<br/>
-		-1..1<br/>
+<strong>tBodyAcc.StDev.X</strong>[Numeric]<br />
+Time Domain Body Accelerometer x-Axis Standard Deviation<br/>
+-1..1	<br/>
+<br />
+<strong>tBodyAcc.StDev.Y</strong>[Numeric]<br />
+Time Domain Body Accelerometer y-Axis Standard Deviation<br/>
+-1..1<br/>
+<br />
 tBodyAcc.StDev.Z		Numeric<br />
 	Time Domain Body Accelerometer z-Axis Standard Deviation<br/>
 		-1..1<br/>
+<br />
 tGravityAcc.Mean.X		Numeric<br />
 	Time Domain Gravity Accelerometer z-Axis Mean<br/>
 		-1..1<br/>
