@@ -3,13 +3,16 @@
 
 <strong>tBodyAcc.Mean.X</strong> [Numeric]<br />
 Desc: Time Domain Body Accelerometer X-Axis Average<br />
-<&nbsp><&nbsp>-1..1<br />
-tBodyAcc.Mean.Y			Numeric<br />
-	Time Domain Body Accelerometer y-Axis Average<br />
-		-1..1<br />
-tBodyAcc.Mean.Z			Numeric<br />
-	Time Domain Body Accelerometer z-Axis Average<br/>
-		-1..1<br/>
+* -1..1<br />
+<br />
+<strong>tBodyAcc.Mean.Y</strong>	 [Numeric]<br />
+Desc: Time Domain Body Accelerometer y-Axis Average<br />
+* -1..1<br />
+<br />
+<strong>tBodyAcc.Mean.Z</strong>	[Numeric]<br />
+Desc: Time Domain Body Accelerometer z-Axis Average<br/>
+* -1..1<br/>
+<br />
 tBodyAcc.StDev.X		Numeric<br />
 	Time Domain Body Accelerometer x-Axis Standard Deviation<br/>
 		-1..1	<br/>
